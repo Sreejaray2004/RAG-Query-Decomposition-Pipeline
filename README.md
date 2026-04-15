@@ -50,7 +50,7 @@ Create a .env file in the root directory of the project and add your Hugging Fac
 * **📄 Run Pipeline:** Click the "Run Pipeline" button.
 * **📄 View Process:** Expand the UI sections to see the extracted chunks, the decomposed sub-queries, the cosine similarity scores for the retrieved text, and the final LLM-generated answer.
 ## 📂 Project Structure
-    ```bash
+   ```bash
     ├── app.py                # Main Streamlit application file
     ├── requirements.txt      # Python dependencies
     ├── .env                  # Environment variables (create this!)
