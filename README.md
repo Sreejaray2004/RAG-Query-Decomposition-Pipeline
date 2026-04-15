@@ -50,12 +50,12 @@ Create a .env file in the root directory of the project and add your Hugging Fac
 * **📄 Run Pipeline:** Click the "Run Pipeline" button.
 * **📄 View Process:** Expand the UI sections to see the extracted chunks, the decomposed sub-queries, the cosine similarity scores for the retrieved text, and the final LLM-generated answer.
 ## 📂 Project Structure
-   ```bash
-    ├── app.py                # Main Streamlit application file
-    ├── requirements.txt      # Python dependencies
-    ├── .env                  # Environment variables (create this!)
-    ├── README.md             # Project documentation
-    └── qdrant_storage/       # Auto-generated local vector database folder
+   
+     ├── app.py                # Main Streamlit application file
+     ├── requirements.txt      # Python dependencies
+     ├── .env                  # Environment variables (create this!)
+     ├── README.md             # Project documentation
+     └── qdrant_storage/       # Auto-generated local vector database folder
 ## ⚠️ Important Notes
 * **📄 API Limits::** This project relies on the free Hugging Face Serverless Inference API. If you process massive PDFs or make rapid, repeated requests, you may hit rate limits. For heavy production use, consider switching to local inference (e.g., Ollama) or a paid API provider.
 * **📄 Storage:** The qdrant_storage folder will be created locally in your project directory to persist your document embeddings between sessions.
