@@ -34,3 +34,13 @@ Instead of searching for a complex query directly, this pipeline uses an LLM to 
    ```bash
    git clone [https://github.com/yourusername/rag-decomposition-pipeline.git](https://github.com/yourusername/rag-decomposition-pipeline.git)
    cd rag-decomposition-pipeline
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Set up your environment variables:
+Create a .env file in the root directory of the project and add your Hugging Face API token:**
+   ```bash
+   HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
+4. **Start the Streamlit server:**
+   ```bash
+   streamlit run app.py
