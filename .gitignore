@@ -1,0 +1,9 @@
+# Environments
+.env
+venv/
+
+# Databases
+qdrant_storage/
+
+# Python cache
+__pycache__/

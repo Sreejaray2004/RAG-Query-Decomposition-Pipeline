@@ -1,0 +1,26 @@
+# ============================================================
+#   RAG Query Pipeline Requirements
+# ============================================================
+
+# Web Framework & UI
+streamlit
+
+# LangChain Core & Experimental
+langchain
+langchain-core
+langchain-experimental
+
+# Hugging Face Integration
+langchain-huggingface
+
+# Vector Store Integrations
+qdrant-client
+
+# Document Loaders
+pypdf
+
+# Machine Learning Utilities
+numpy
+
+# Environment Variable Management
+python-dotenv
