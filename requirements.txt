@@ -24,3 +24,6 @@ numpy
 
 # Environment Variable Management
 python-dotenv
+
+
+sentence-transformers

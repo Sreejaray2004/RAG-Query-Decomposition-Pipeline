@@ -1,9 +1,22 @@
-# Environments
-.env
+# Virtual Environments
+.venv/
 venv/
+env/
+ENV/
 
-# Databases
-qdrant_storage/
+# Sensitive API Keys & Secrets
+.env
+*.env
 
-# Python cache
+# Python Cache & Bytecode
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit Cache
+.streamlit/cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
